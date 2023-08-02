@@ -26,7 +26,7 @@
 }
 
 .hero-column-left h1 {
-    font-size: 80px;
+    font-size: 34px;
 }
 
 .hero-column-left span {
@@ -59,18 +59,18 @@
     }
 
     .hero-column-left h1 {
-        font-size: 80px;
+        font-size: 16px;
     }
 
 }
 
 @media screen and (max-width:468px) {
     .hero-wrapper {
-        grid-template-rows: 600px;
+        grid-template-rows: 100px;
     }
 
     .hero-column-left h1 {
-        font-size: 32px;
+        font-size: 16px;
     }
 }
 
@@ -83,7 +83,7 @@
 }
 
 .about-section h1 {
-    font-size: 62px;
+    font-size: 34px;
     text-align: center;
     color: #FEFFFF;
 }
@@ -95,11 +95,6 @@
 
 }
 
-.about-title {
-    text-align: center;
-    font-size: 48px;
-}
-
 .about-column-left {
     display: flex;
     flex-direction: column;
@@ -108,7 +103,7 @@
 }
 
 .about-column-left p {
-    font-size: 32px;
+    font-size: 21px;
 }
 
 .about-column-right {
@@ -134,25 +129,25 @@
     }
 
     .about-section h1 {
-        font-size: 40px;
+        font-size: 16px;
     }
 
     .about-column-left p {
-        font-size: 30px;
+        font-size: 16px;
     }
 }
 
 @media screen and (max-width:468px) {
     .about-wrapper {
-        grid-template-rows: 600px;
+        grid-template-rows: 200px;
     }
 
     .about-section h1 {
-        font-size: 40px;
+        font-size: 16px;
     }
 
     .about-column-left p {
-        font-size: 30px;
+        font-size: 16px;
     }
 }
 
@@ -164,7 +159,7 @@
 
 .portfolio-container {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
     padding-left: 60px;
     display: flex;
     flex-direction: column;
@@ -172,7 +167,7 @@
 }
 
 .portfolio-container h1 {
-    font-size: 62px;
+    font-size: 34px;
     color: #FEFFFF;
     text-align: center;
 }
@@ -187,9 +182,8 @@
 
 
 .portfolio-projects {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .portfolio-item {
@@ -200,11 +194,12 @@
 }
 
 .portfolio-item h2 {
-    font-size: 48px;
+    font-size: 26px;
+    font-weight: bold;
 }
 
 .portfolio-item p {
-    font-size: 32px;
+    font-size: 21px;
     font-weight: bold;
     width: 60%;
 }
@@ -238,11 +233,15 @@
     }
 
     .portfolio-container h1 {
-        font-size: 70px;
+        font-size: 16px;
     }
 
     .portfolio-container {
         padding-left: 0px;
+    }
+
+    .portfolio-projects {
+        grid-template-columns: 1fr;
     }
 
 }
@@ -253,19 +252,20 @@
     }
 
     .portfolio-container h1 {
-        font-size: 40px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
 
     .portfolio-item h2 {
-        font-size: 30px;
+        font-size: 16px;
         margin-bottom: 10px;
     }
 
     .portfolio-item p {
-        font-size: 18px;
+        font-size: 12px;
         font-weight: bold;
         margin-bottom: 10px;
+        width: 100%;
     }
 
     .portfolio-item a {
@@ -300,7 +300,7 @@
 }
 
 .contact-container h1 {
-    font-size: 62px;
+    font-size: 34px;
     color: #FEFFFF;
     text-align: center;
     padding-bottom: 48px;
@@ -308,7 +308,7 @@
 
 .contact-container p {
     text-align: center;
-    font-size: 32px;
+    font-size: 21px;
     font-weight: bold;
 }
 
@@ -320,12 +320,12 @@
     .contact-container h1 {
         margin-left: 0;
         margin-top: 24px;
-        font-size: 32px;
+        font-size: 16px;
     }
 
     .contact-container p {
         text-align: center;
-        font-size: 12px;
+        font-size: 16px;
         font-weight: bold;
     }
 }
